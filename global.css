@@ -1,0 +1,11 @@
+html {
+    font-family: system-ui;
+    background-color: #111111;
+    color: #eeeeee;
+}
+
+#content {
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
