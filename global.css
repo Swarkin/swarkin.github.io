@@ -1,11 +1,43 @@
 html {
     font-family: system-ui;
-    background-color: #111111;
-    color: #eeeeee;
+    color-scheme: dark light;
+    font-size: large;
+    margin: 0px;
 }
 
 #content {
-    margin-top: 20px;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: 100px;
+    max-width: 800px;
+}
+
+h2 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+h3 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+hr {
+    border-color: #999999;
+    background-color: #999999;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+blockquote {
+    margin-left: 20px;
+    color: #999999;
+}
+
+@media only screen and (max-width: 1000px) {
+    #content {
+        margin: 1rem;
+    }
 }
