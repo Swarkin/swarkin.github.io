@@ -91,7 +91,7 @@
 				}
 
 				// Fetch the issue data
-				issue_resp = await fetch("https://api.github.com/repos/godotengine/godot/issues?milestone=18");
+				issue_resp = await fetch("https://api.github.com/repos/godotengine/godot/issues?milestone=19");
 				let issue_json = [];
 				if (issue_resp.ok) {
 					issue_json = await issue_resp.json();
